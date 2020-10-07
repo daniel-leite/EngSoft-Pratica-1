@@ -10,6 +10,8 @@ public class Run {
 
         MoneyTest mt = new MoneyTest();
         mt.testEquality();
+        mt.testMultiplication();
+        mt.testFrancMultiplication();
 
         System.out.println("Sucesso");
     }
